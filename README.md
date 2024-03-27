@@ -1,3 +1,31 @@
+# Hosted Link:
+Live: https://66035b6d5d352f178ec00213--boisterous-dragon-804c73.netlify.app/
+
+# The Figma design I was given to code:
+![2024-03-27](https://github.com/Moumita2002/dashboard/assets/102172188/afcdd537-6f13-45bd-b069-3095f9c5ff23)
+
+# The react.js code (Used Material UI for icons):
+- Desktop view
+
+![2024-03-27 (1)](https://github.com/Moumita2002/dashboard/assets/102172188/8e427f09-9927-4ab7-8a30-da0d83161e83)
+
+- Mobile view
+
+![2024-03-27 (2)](https://github.com/Moumita2002/dashboard/assets/102172188/20af3cd5-c0b3-4e1c-b06e-acd969d44877)
+
+
+
+# Summary of code:
+- Used the concept of props and components effectively for reusability. (See Revenue.js and Subrev.js)
+- The dashboard in the sidebar have a toggler icon, clicking on which the user will be shown suboptions with hover effects.
+- Flexbox property and @mediaquery has been used throughout the project.
+- Switch cases were implemented to change th background color and the color of the text for active, pending and cancelled status in table (Installed.js). A similar switch case is also implemented for displaying the profit and loss percentage in revenue, users, signups and retention (Subrev.js).
+
+# Overcoming the problems:
+- Used display property to make the navbar styling look different for mobile users and desktop users.
+- I was not much familiar with charts, so learned about it and implemented as required.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
