@@ -20,6 +20,7 @@ Live: https://66035b6d5d352f178ec00213--boisterous-dragon-804c73.netlify.app/
 - The dashboard in the sidebar have a toggler icon, clicking on which the user will be shown suboptions with hover effects.
 - Flexbox property and @mediaquery has been used throughout the project.
 - Switch cases were implemented to change th background color and the color of the text for active, pending and cancelled status in table (Installed.js). A similar switch case is also implemented for displaying the profit and loss percentage in revenue, users, signups and retention (Subrev.js).
+- Used Msidebar.js and Multilinechart.js for practice.
 
 # Overcoming the problems:
 - Used display property to make the navbar styling look different for mobile users and desktop users.
