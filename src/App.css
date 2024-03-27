@@ -1,0 +1,429 @@
+body{
+  background-color: rgb(242, 242, 242);
+}
+
+
+/*------Sidebar----*/
+.sidebar {
+  top: 0;
+  left: -250px; /* Start closed */
+  width: 250px;
+  height: 100vh;
+  background-color: white;
+}
+
+.dashcontent{
+  margin-bottom: 10px;
+}
+.subboard span{
+  margin-bottom: 10px;
+}
+
+.bottom span{
+  margin-bottom: 10px;
+}
+.sidebar .top{
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+.sidebar .top .logo{
+  padding: 10px;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.dcenter{
+  display: none;
+}
+
+.sidebar .center{
+  padding: 10px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar h3{
+  color: gray;
+  font-size:medium;
+  margin-bottom: 20px;
+}
+
+.sidebar .center .dashcontent{
+  cursor:pointer;
+}
+
+.sidebar .center .subboard{
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  flex-direction: column;
+  color:gray;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sidebar .center .subboard span:hover{
+  color: black;
+}
+
+.sidebar .bottom{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/*----------NAVBAR -----*/
+.Navbar {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+}
+
+.desktop-icons {
+  display: flex;
+  align-items: center;
+  width:300px;
+  justify-content: space-around;
+
+}
+
+.search-container {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: gray;
+}
+
+input[type="search"] {
+  padding-left: 30px; /* Space for the icon */
+  width: 1000px; /* Adjust width as needed */
+}
+
+.avatar{
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+/*---------AD-----*/
+.ad{
+  color:white;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.ad .adtext{
+  display: flex;
+  flex-direction: column;
+  font-size:20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ad .adtext .large{
+  font-size:25px;
+  font-weight: bolder;
+
+}
+
+.ad .but button{
+  padding: 10px;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 30px;
+  width:200px;
+}
+
+/*------Revenue-------*/
+.revmain{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+
+.revenue{
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width:300px;
+}
+
+.revenue h6{
+  color:gray;
+
+}
+
+.revenue .lower{
+  margin-top: 30px;
+}
+
+.revenue .lower .colour{
+  background-color:#b3ffb3;
+  border-radius: 10px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.revenue .specialText{
+  background-color: red;
+}
+
+.status{
+  border:2px solid white;
+  padding: 10px;
+  width:100px;
+  border-radius: 20px;
+}
+
+.revenue .gray{
+  background-color: gray;
+}
+
+/*----------PERFORMANCE--------*/
+
+.performance{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+
+}
+
+.pupper{
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.performance .plower{
+  display: flex;
+  padding: 10px;
+}
+
+.installed{
+  margin: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+  
+}
+
+
+
+
+
+/*---MAIN---*/
+.Main .submain{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  
+}
+
+.Main{
+  background-color: rgb(243, 239, 239);
+  width: 100%;
+}
+.home{
+  display: flex;
+}
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+  input[type="search"] {
+    width: 240px; /* Adjust width as needed */
+  }
+  .avatar{
+    display:none;
+  }
+  .desktop-icons {
+    
+    width:10px;
+  
+  }
+  
+    .search-container {
+      margin-top:10px;
+      margin-right: 20px;
+    }
+  
+    .ad{
+      display: flex;
+      flex-direction: column;
+      padding: 15px;
+
+    }
+.ad .adtext{
+  
+  font-size:15px;
+}
+.ad .but button{
+  font-size: 15px;
+  margin-top: 20px;
+}
+.revmain{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 25px;
+  align-items: center;
+
+}
+
+.revenue{
+  margin-bottom: 10px;
+  width:100%;
+}
+.performance{
+  width:100%;
+  margin: 0px;
+}
+.performance .plower{
+  display: flex;
+  padding: 0px;
+}
+.installed{
+  margin: 0;
+  width: 100%;
+  margin-top:10px;
+}
+.show{
+  display: none;
+}
+.dcenter{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
+  padding:10px;
+}
+.nav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dcenter .desktop-icons{
+  border:2px solid green;
+}
+.dcenter.top .logo{
+  font-weight: bold;
+  font-size: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th{
+  background-color: rgb(230, 228, 228);
+  color: gray;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.installed {
+  width: 100%;
+}
+
+.pupper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.pupper .title {
+  font-size: 24px;
+}
+
+.ilower {
+  overflow-x: auto;
+}
+
+.table-container {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.styled-table {
+  width: max-content;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: auto;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.styled-table th {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f9f9f9;
+}
+
+.styled-table tbody tr:hover {
+  background-color: #f2f2f2;
+}
+
+.status {
+  border: none;
+  border-radius: 15px;
+  padding: 5px ;
+  cursor: pointer;
+}
+
+/* Exaggerated styling */
+.styled-table th,
+.styled-table td {
+  font-size: 18px;
+}
+
+
+
+.ilower {
+  padding: 20px;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 20px 30px;
+}
+
+
+
+
+
+
