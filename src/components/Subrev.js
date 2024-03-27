@@ -2,6 +2,7 @@ import React from 'react';
 import Revenue from './Revenue';
 
 const Subrev = () => {
+  // To change the background color and the color of text
   const getStatusColor = (colour) => {
     switch (colour) {
       case '-1.7%':
